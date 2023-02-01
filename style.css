@@ -1,4 +1,21 @@
-html, body {
-  height: 100%;
+
+/*acordian body*/
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+/*map for map api which I did not get*/
+#map {
   width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/*for email submit*/
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
 }
